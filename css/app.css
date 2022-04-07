@@ -66,6 +66,7 @@ header {
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
 }
+.navbar-light .navbar-nav .nav-link:hover{color: var(--secondary-color);}
 .btn-custom {
   background: var(--theme-color);
   border-radius: 5px;
@@ -141,13 +142,7 @@ header {
 font-weight: 600;
 font-size: 36px;
 line-height: 54px;
-
 color: #1C3664;
-
-
-
-
-
 }
 .heading h2 {text-align: center;}
 .heading h1 span{}
@@ -158,6 +153,8 @@ color: #1C3664;
   line-height: 27px;
   text-align: center;
   color: var(--dark);
+  max-width: 750px;
+  margin: auto;
 }
 .service{ display: flex;
 flex-direction: column;
@@ -193,6 +190,7 @@ margin-bottom: 30px;
   line-height: 42px;
   text-align: center;
   color: var(--theme-color);
+  margin-bottom: 0;
   }
 .doctors .card-body p {font-style: normal;
   font-weight: 500;
@@ -212,4 +210,4 @@ text-align: center;
 color: var(--theme-color);
 padding: 13px 17px;
 }
-.doctors .card-body a:hover {}
+.doctors .card-body a:hover {background-color: var(--theme-color); color: #ffffff;}
